@@ -1,6 +1,11 @@
 # This is Git's per-user configuration file.
 [user]
-name = Jasmine Thomson-Cooke
-email = jasmine@stp.dias.ie
+    name = Jasmine Thomson-Cooke
+    email = jasmine@stp.dias.ie
+[advice]
+    detachedHead = false
 [push]
-	autoSetupRemote = true
+    autoSetupRemote = true
+    default = current
+[core]
+	editor = vim
